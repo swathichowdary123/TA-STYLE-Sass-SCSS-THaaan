@@ -1,0 +1,67 @@
+.pricing-background{
+    background-color: rgb(188, 209, 218);
+    padding:40px 0;
+}
+.pricing-section{
+    padding:40px;
+    p{
+        color:grey;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+.dollar-section{
+    padding:20px 0;
+    h4{
+        color:black;
+        font-size:14px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    h2{
+        color:black;
+        font-weight: 700;
+        margin-bottom:20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    p{
+        color:gray;
+        font-weight: 700;
+        margin-bottom:20px;
+        font-size: 14px;
+        text-align: center;  
+    }
+    a{
+        text-decoration: none;
+        color: darkred;
+        border:1px solid darkred;
+        border-radius: 20px;
+        width:60px;
+        height:20px;
+        padding:6px 6px;
+    }
+   .dollar-border{
+    border:1px solid gray;
+    padding:40px 120px;
+    background-color: white;
+   }
+}
+.frequent{
+    h3{
+        font-size: 16px;
+        color:black;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 16px;
+        color:gray;
+        margin-bottom: 20px;
+    }
+    .frequent-border{
+        border:1px solid gray;
+        padding:30px 10px;
+        margin:20px 0;
+    }
+}

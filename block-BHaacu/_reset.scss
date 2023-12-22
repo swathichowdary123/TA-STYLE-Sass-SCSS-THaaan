@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:20px 20px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.header{
+    background-color: rgb(153, 10, 10);
+}
+.white{
+    color:white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.logo{
+    font-size: 30px;
+    color:darkred;
+    text-decoration: none;
+    span{
+        font-size: 30px;
+        color:rgb(9, 9, 66);
+        text-decoration: none;
+    }
+}
+.pages{
+    color:black;
+    font-size: 18px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+.logo-section{
+    background-color: white;
+}
+.about-section{
+    padding:40px 0;
+    h1{
+        color:white;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    p{
+        color:white;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+.aboutus{
+    padding:30px 0;
+    .para{
+        color:darkred;
+        margin-bottom: 16px;
+        font-size: 16px;
+        text-align: left;
+    }
+    h2{
+        color:black;
+        line-height: 1.5;
+        font-size: 30px;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+    p{
+        color: gray;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+    }
+    img{
+        width:450px;
+        margin-left: 40px;
+    }
+}
+.vision{
+    padding:40px 0;
+   img{
+    width:300px;
+   } 
+   h3{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 16px;
+   }
+   p{
+    font-size: 16px;
+    text-align:left;
+    color:grey;
+    line-height: 1.5;
+   }
+   a{
+    color:rgb(7, 7, 57);
+    margin-right: 32px;
+   }
+}
+.vision-margin{
+    margin-bottom: 30px;
+}
+.team-section{
+    background-color: rgb(212, 230, 230);
+    padding:40px 0;
+    h2{
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    p{
+        font-size: 16px;
+        color:black;
+        margin-bottom:20px;
+        text-align: center;
+    }
+    img{
+        width:250px;
+    }
+}
+.teamp{
+    font-size: 14px;
+    color:darkred;
+}
+.team-names{
+    background-color: white;
+    width:250px;
+    padding:10px 0;
+    position:relative;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.solution{
+    padding:40px 0;
+    h2{
+        color:black;
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p{
+        color:gray;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    a{
+        width:100px;
+        height:30px;
+        padding:10px 10px;
+        text-align: center;
+        background-color: darkred;
+        color:white;
+        text-decoration: none;
+        border-radius: 6px;
+    }
+    div{
+        text-align: center;
+    }
+}
+.clients{
+    padding:40px 0;
+    background-color: rgb(192, 237, 237); 
+    h2{
+        color:black;
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+   img{
+    margin: 0 12px;
+    text-align: start;
+   }
+}
+.footer{
+    background-color: rgb(27, 27, 60);
+    padding:40px 0;
+    h3{
+        color:rgb(222, 217, 217);
+        font-size: 18px;
+        margin-bottom: 18px;
+        text-align: start;
+    }
+    p{
+        color:grey;
+        font-size: 16px;
+        margin-bottom: 18px;
+        line-height: 1.5; 
+        text-align: start;
+    }
+    a{
+        color:rgb(222, 217, 217);
+        margin-right: 12px;
+        text-align: start;
+    }
+}
+.footer-section{
+    p{
+        text-align: center;
+        color:grey;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    div{
+        text-align: center;
+        color:grey;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+}
+  @media screen and (max-width:768px){
+    .header-wrap{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+   img{
+    width:100%;
+    margin-top: 20px;
+   }
+   .vision-margin{
+     flex-wrap: nowrap;
+   }
+   .flex-wrap{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction:column;
+   }
+  }
+    

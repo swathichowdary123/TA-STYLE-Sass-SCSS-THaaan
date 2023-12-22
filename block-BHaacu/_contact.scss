@@ -1,0 +1,67 @@
+.contact-section{
+ padding:40px 0; 
+ background-color: rgb(209, 216, 220); 
+ p{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color:grey;
+ } 
+ a{
+    color:darkred;
+    width:26px;
+    height:26px;
+    background-color: rgb(167, 210, 227);
+    border-radius: 50%;
+    padding:6px 6px;
+ }
+ h3{
+    color:black;
+    font-size: 16px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+ }
+ p{
+    color:grey;
+    font-size: 14px;
+ }
+}
+.knowus-section{
+    padding:40px 0;
+    h2{
+        color:black;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color:grey;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .input{
+        width:400px;
+        height:30px;
+        padding:10px 10px;
+        margin-bottom: 20px;
+    }
+    textarea{
+       width:420px;
+       margin-bottom: 20px; 
+       margin-left:10px;
+    }
+    a{
+        width:60px;
+        height:20px;
+        border-radius: 10px;
+        padding:6px 6px;
+        background-color: rgb(174, 64, 64);
+        text-decoration: none;
+        color:whitesmoke;
+        margin:30px 0;
+    }
+}
+

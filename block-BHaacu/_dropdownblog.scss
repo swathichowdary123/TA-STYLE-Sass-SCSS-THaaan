@@ -1,0 +1,41 @@
+.drop{
+    background-color: rgb(181, 196, 203);
+}
+.option:hover{
+color:rgb(195, 80, 80);
+}
+.banner{
+    img{
+        width:100%;
+    }
+    h1{
+        font-size:50px;
+        color:black;
+        font-weight: 700;
+        margin-bottom: 20px;
+        position:relative;
+        margin-top: -360px;
+        word-spacing: 2;
+    }
+    h2{
+        font-size:50px;
+        color:black;
+        font-weight: 700;
+        margin-bottom: 20px; 
+    }
+    p{
+        color:black;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+.aq{
+    width: 80px;
+    height:30px;
+    padding:10px 10px;
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(166, 63, 63);
+}
